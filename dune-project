@@ -14,6 +14,8 @@
 
 (package
   (name menhir)
+  (depends (menhirLib (= :version))
+           (menhirSdk (= :version)))
 )
 
 (package
